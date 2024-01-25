@@ -9,7 +9,7 @@ public class Main{
       System.out.println(quadrant(0,10));
 
   }
-   public static int quadrant(int y, int x){
+   public static int quadrant(double y, double x){
       if(x==0){
          return 0;
       }
