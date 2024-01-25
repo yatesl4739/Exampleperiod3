@@ -12,7 +12,7 @@ public class Main{
       System.out.println(quadrant(0,10));
 
 
-      
+
       System.out.println(isVowel("h"));
       System.out.println(isVowel("e"));
       System.out.println(isVowel("i"));
@@ -50,7 +50,7 @@ public class Main{
     public static boolean isVowel(String letter){
       if(letter.equals("a")||letter.equals("e")||letter.equals("i")||letter.equals("o")||letter.equals("u")){
          return true;
-
+         //NO NEED FOR IF STATEMENT BECAUSE ITS GOING TO RETURN A BOOLEAN ANYWAY. YOU COULD HAVE JUST USED ONE RETURN WITH THE ENTIRE IF STATEMENT THING.
       }
       return false;
     }
