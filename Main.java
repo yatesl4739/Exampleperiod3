@@ -4,12 +4,19 @@ public class Main{
       System.out.println("hello");
 
 
-      
+
       System.out.println(quadrant(3,10));
       System.out.println(quadrant(-3,10));
       System.out.println(quadrant(3,-10));
       System.out.println(quadrant(-3,-10));
       System.out.println(quadrant(0,10));
+
+
+      
+      System.out.println(isVowel("h"));
+      System.out.println(isVowel("e"));
+      System.out.println(isVowel("i"));
+      System.out.println(isVowel("p"));
 
   }
    public static int quadrant(double y, double x){
@@ -40,7 +47,13 @@ public class Main{
          }
       }
    }
-    
+    public static boolean isVowel(String letter){
+      if(letter.equals("a")||letter.equals("e")||letter.equals("i")||letter.equals("o")||letter.equals("u")){
+         return true;
+
+      }
+      return false;
+    }
    }
 
 
